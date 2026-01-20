@@ -124,6 +124,7 @@ The stride and CIA model are used
   - Encryption of sensitive data  
   - Monitoring and flagging fraudulent transactions
   - flagging the suspicious activity and devices
+ 
  **Eliminate:**  
   - Remove unused accounts
   - ban the devices with wrong intentions
