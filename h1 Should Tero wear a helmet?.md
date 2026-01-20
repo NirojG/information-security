@@ -109,7 +109,7 @@ The stride and CIA model are used
 - The Fintech services provided by Ease wallet must continue to do it. 
 - Trust is a very critical factor as our customers expect their money to be safe, relaible and transfers/exchanges to be fast. Loss of trust would seriously impact the business.
 
-## (3) What are we going to do about it?
+## 3) What are we going to do about it?
 
 ### Attack surface reduction 
 - Disabling vulnerable and unnecessary ports. (entrypoints)
