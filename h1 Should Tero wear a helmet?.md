@@ -62,10 +62,21 @@ Cyber Security Professionals (Technical specalists) must support and secure the 
 - Mobile application and backend services
 - company goodwill and trust
 
-* Customers funds and their transfers, exchanges and transactions are the most critical assests to our company. Security supports the business by protecting the funds, prevention of any kinds of frauds and maintaining clients trust. 
+* Customers funds and their transfers, exchanges and transactions are the most critical assests to our company. Security supports the business by protecting the funds, prevention of any kinds of frauds and maintaining clients trust.
 
-- Customer is the king, so to serve our customers well and to keep our company business thriving, we have to make our financial wallet system secure, easy to use, fast funds transfers/exchange, better exchange rate and 24/7 uptime. 
+### Diagram of the company systems
+graph TD
+    A[Mobile App] --> B[Backend Services]
+    B --> C[User Database]
+    B --> D[Bank / Payment APIs]
+    B --> E[Analytics & Logging]
+
+
+
+- Customer is the king, so to serve our customers well and to keep our company business thriving, we have to make our financial wallet system secure, easy to use, fast funds transfers/exchange, better exchange rate and 24/7 uptime.
+  
 - The customer interacts with Ease wallet through Mobile Apps, currancy exchange, sending and recieving money, viewing wallet balance etc.
+
 
 ## 2) What can go wrong?
 ### Threat Modeling approach 
