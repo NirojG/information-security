@@ -139,14 +139,14 @@ The stride and CIA model are used
 
 
 
-## (4) Did we do a good enough job?
+## 4) Did we do a good enough job?
 
 - Perform regular security audits and assessments
 - Conduct penetration testing when we change our systems or have major updates and upgrades. 
 - Continuously update the threat modeling procedures as the business evolves
 - Review incidents and improve controls
 
-**Threat modeling is an ongoing process and its not a one time job, so we need to keep on doing it, It never ends!**
+**Note: Threat modeling is an ongoing process and its not a one time job, so we need to keep on doing it, It never ends!**
 
 
 
