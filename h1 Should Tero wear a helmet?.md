@@ -65,12 +65,9 @@ Cyber Security Professionals (Technical specalists) must support and secure the 
 * Customers funds and their transfers, exchanges and transactions are the most critical assests to our company. Security supports the business by protecting the funds, prevention of any kinds of frauds and maintaining clients trust.
 
 ### Diagram of the company systems
-graph TD
-    A[Mobile App] --> B[Backend Services]
-    B --> C[User Database]
-    B --> D[Bank / Payment APIs]
-    B --> E[Analytics & Logging]
+    
 
+<img width="1536" height="1024" alt="Ease" src="https://github.com/user-attachments/assets/30780756-e343-44bd-8bb2-ec1ed290d2fb" />
 
 
 - Customer is the king, so to serve our customers well and to keep our company business thriving, we have to make our financial wallet system secure, easy to use, fast funds transfers/exchange, better exchange rate and 24/7 uptime.
@@ -137,8 +134,8 @@ The stride and CIA model are used
   - Cyber insurance to cover risks
     
  **Accept:**  
-  - Acknowledge the Low-impact risks that doesn't pose immediate risk, we do accept minor downtimes on our main servers which will be covered by our backup servers.
-  -  
+  - Acknowledge the Low-impact risks that doesn't pose immediate risk.
+  -  we do accept minor downtimes on our main servers which will be covered by our backup servers.
 
 
 
