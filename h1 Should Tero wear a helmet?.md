@@ -151,10 +151,10 @@ The stride and CIA model are used
 
 # Sources
 
-- Karvinen 2024: Information Security Course. https://terokarvinen.com/information-security/ (Accessed Jan 20, 2026)
-- Braiterman et al. 2020: Threat Modeling Manifesto. https://www.threatmodelingmanifesto.org/
-- Shostack 2022: Welcome to the World’s Shortest Threat Modeling Course. url https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
-- Darknet Diaries 2023: Episode 137: Predator. https://darknetdiaries.com/episode/137/
+- Karvinen 2024: Information Security Course. URL: https://terokarvinen.com/information-security/ 
+- Braiterman et al. 2020: Threat Modeling Manifesto. URL: https://www.threatmodelingmanifesto.org/
+- Shostack 2022: Welcome to the World’s Shortest Threat Modeling Course. URL: https://www.youtube.com/playlist?list=PLCVhBqLDKoOOZqKt74QI4pbDUnXSQo0nf
+- Darknet Diaries 2023: Episode 137: Predator. URL: https://darknetdiaries.com/episode/137/
 
 
 
