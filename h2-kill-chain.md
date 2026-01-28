@@ -52,7 +52,7 @@
 ### MITRE ATT&CK key insights
 - The FAQ section of the website makes it clear about all the procedures techniques and tactics behind a attack. I learned real life examples from the website and also real-life ATT&CK stories which made me aware about different sorts of tools and process used while attacking a victim.
 
-## c) Voluntary Bonus: Attack Story
+## c) Attack Story
 
 
 
