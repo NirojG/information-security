@@ -33,8 +33,7 @@
 ### Tactics 
 - A tactic is the attackers goal and represents "the why" of an attack.
 - Tactics represents it is not a particular approach, but rather a stage of adversarial purpose.
-- Example of a specific tactics would be an adversary may want to achieve credential access.
-- 
+- Example of a specific tactics would be an adversary may want to achieve credential access. 
 ### Technique 
 - Technique is the method to achieve a specific tactic.
 - A Technique is "How" the general method will or can be used to achieve a tactic.
