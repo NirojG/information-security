@@ -52,8 +52,27 @@
 ### MITRE ATT&CK key insights
 - The FAQ section of the website makes it clear about all the procedures techniques and tactics behind a attack. I learned real life examples from the website and also real-life ATT&CK stories which made me aware about different sorts of tools and process used while attacking a victim.
 
-## c) Attack Story
+## c)  ArcaneDoor (ID:C0046) - Attack story (2023 - 2024)
 
+ArcaneDoor is a campaign targeting networking devices from Cisco and other vendors between July 2023 and April 2024, primarily focused on government and critical infrastructure networks. They used  Line Runner and Line Dancer as their custom back door
+
+1. Reconissaince:
+- Techniques: Active scanning (T1595)
+- The attackers intially scanned and researched publicly reachable perimeter devices, they targeted specially VPN and firewall services on Cisco ASA networks in goverment and critical infrastructure networks. They focused on versions known to have zero-day vulnerabilities that could be exploited remotely.
+- Defensive action for this would be security professionals and defenders can monitor scanning activity and use vulnerability management tools to see the weak points before attackers find them and take action immediatley.
+
+2. Weaponization:
+- Technique: Exploit Public-Facing Application (T1190)
+- ArcaneDoor abused WebVPN traffic to targeted devices to achieve unauthorized remote code execution.
+- Defensive action would be to be proactive and limiting access to various devices.
+
+3. Delivery:
+- Once the attacker had the access they implanted the custom backdoor access malware called line runner and line dancer. These backdoors allows attackers to run many commands while staying anonymous in the system.
+- Defensive action here is constant monitoring of the devices such as monitoring device configurations and catch new scripts which are not supposed to be there.
+
+4. Exploitaion:
+- They exploited the systems altering device configuraitons and disable logging, so malicious actions won't be visible easily.
+- Defensive action would be continious monitoring the interfaces systems with alerts to config changes or logging changes. 
 
 
 # Sources 
