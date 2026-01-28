@@ -54,3 +54,12 @@
 
 ## c) Voluntary Bonus: Attack Story
 
+
+
+# Sources 
+
+- Karvinen 2024: Information Security Course. URL: https://terokarvinen.com/information-security/
+- Hutchins et al. 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. URL:  https://apps.dtic.mil/sti/pdfs/ADA565172.pdf
+- MITRE 2024: ATT&CK Matrix for Enterprise. URL: https://attack.mitre.org/
+- MITRE 2024: MITRE ATT&CK FAQ. URL: https://attack.mitre.org/resources/faq/
+
