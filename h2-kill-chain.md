@@ -74,6 +74,7 @@ ArcaneDoor is a campaign targeting networking devices from Cisco and other vendo
 
 - Karvinen 2024: Information Security Course. URL: https://terokarvinen.com/information-security/
 - Hutchins et al. 2011: Intelligence-Driven Computer Network Defense Informed by Analysis of Adversary Campaigns and Intrusion Kill Chains. URL:  https://lockheedmartin.com/content/dam/lockheed-martin/rms/documents/cyber/LM-White-Paper-Intel-Driven-Defense.pdf 
-- MITRE 2024: ATT&CK Matrix for Enterprise. URL: https://attack.mitre.org/
-- MITRE 2024: MITRE ATT&CK FAQ. URL: https://attack.mitre.org/resources/faq/
+- MITRE ATT&CK®: ATT&CK Matrix for Enterprise. URL: https://attack.mitre.org/
+- MITRE ATT&CK®: MITRE ATT&CK FAQ. URL: https://attack.mitre.org/resources/faq/
+- MITRE ATT&CK®: ArcaneDoor Campaign (C0046). URL: https://attack.mitre.org/campaigns/C0046/
 
