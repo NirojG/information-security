@@ -125,6 +125,6 @@
 # Sources 
 - Karvinen, T. 2021: Install Debian on Virtualbox - Updated 2024. Available at: https://terokarvinen.com/2021/install-debian-on-virtualbox/
 - Karvinen, T. 2020: Command Line Basics Revisited. Available at: https://terokarvinen.com/2020/command-line-basics-revisited/
-- OverTheWire Community: Bandit Wargame (Levels 0-34). Available at: https://overthewire.org/wargames/bandit/.
+- OverTheWire Community: Bandit Wargame. Available at: https://overthewire.org/wargames/bandit/.
 
  
