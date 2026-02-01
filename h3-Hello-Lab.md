@@ -63,7 +63,7 @@
 
 <img width="1282" height="797" alt="image" src="https://github.com/user-attachments/assets/cec8a2b3-121b-4111-8c68-84bed38a1427" />
 
-- I obsereved there is only IP address which is scanned and this is to be expected.
+- I obsereved there is only one IP address which is scanned and this is to be expected.
 
 ## c) Daemon scan
 - I Installed apache by executing sudo apt-get -y install apache2.
