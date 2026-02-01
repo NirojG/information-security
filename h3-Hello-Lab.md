@@ -1,5 +1,5 @@
 # h3 - Hello Lab 
-## Installation of Debian on Virtualbox - Karvinen 2021 (Updated 2024)
+## x) Installation of Debian on Virtualbox - Karvinen 2021 (Updated 2024)
 - First downloading the image , debian ISO image latest version.
 - Downloading & installing virtual box.
 - Creating New virtual machine of debian.
@@ -47,7 +47,16 @@
 - /media/ - USB drives, CDs, etc.
 
 ## a) can't fish 
-- I disabled the network on my virtual box and tried pinging both cloudfare and google DNS and observed the network was unreachable. Below is the screenshot for the task i did
-- <img width="1286" height="802" alt="image" src="https://github.com/user-attachments/assets/91263339-4f30-4447-82b1-44a5bfd73063" />
-- 
+-I pinged cloudfare ip while the internet is connected. I used command ping 1.1.1.1 in terminal and killed the ping by using ctrl + c. 
+<img width="1287" height="807" alt="image" src="https://github.com/user-attachments/assets/34147b72-be31-490b-a88f-415f4f65e8b3" />
+
+- I disabled the network on my virtual box and tried pinging both cloudfare and google DNS and observed the network was unreachable. Below is the screenshot for the task performed on my linux.
+ <img width="1286" height="802" alt="image" src="https://github.com/user-attachments/assets/91263339-4f30-4447-82b1-44a5bfd73063" />
+
+## b) Portscan local only 
+- first we need to install nmap in our system, we have to open terminal and execute sudo apt-get install nmap, we can scan our own local host using sudo nmap -A localhost.
+- I port scanned using nmap to see what ports are open on our own system while the internet is still off. It is illegal to portscan so, I made sure to keep my internet off through out its usage.
+<img width="1282" height="797" alt="image" src="https://github.com/user-attachments/assets/cec8a2b3-121b-4111-8c68-84bed38a1427" />
+
+- I obsereved there are "PORT" and "STATE" columns.
 
