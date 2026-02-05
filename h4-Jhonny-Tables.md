@@ -1,4 +1,4 @@
-
+<img width="912" height="702" alt="image" src="https://github.com/user-attachments/assets/91bcd1bf-423e-44bd-bd0d-ac40d39b156e" />
 # h3 Jhonny Tables 
 ## x) Summary of OWASP 10: 2021
 - OWASP stands for Open Worldwide Application Security Project. It is an open community, it is free and open to anyone interested in improving application security.
@@ -34,8 +34,8 @@
 
 ### Exploits of Mom
 - I found this funny as this is a classic comical example of a malicious attack/ instruction to school system.
-- They son's name being associated with DROP TABLE Students; actually instructs the database to drop the entire table of students from database records.
-- There is also a good moral of the story kind of vibes given in the funny story where they are made aware of a critical security risks.
+- The son's name being associated with DROP TABLE Students; actually instructs the database to drop the entire table of students from database records.
+- There is also a good lesson to be understood in this story where the comic itself wants to make us to be aware of a critical security risks.
 
 ## a) Installing WebGoat 
 - I tried installing first Java but $ sudo apt-get install openjdk-17-jre but unfortunately the package was not available anymore
@@ -136,6 +136,52 @@ I have sucessfully found out the request of Go button.
 - The payload uses OR 1 = 1, which always evaluates true.
 - -- comments out the remaining SQL query.
 - All data which were hidden are returned.
+
+## m) Voluntary bonus: WebGoat: SQL Injection 
+
+### Lesson-1 SQL Injection (Intro)
+- This particular lesson in WebGoat describes the concept of Structured Query Language (SQL) and how it can be manipulated to perform malicious activities.
+
+### Lesson - 2
+- SQL is a standardized programming language which is used for managing relational databasees.
+- Databases are collection of data, data are organized into rows, coloumn and tables.
+- I sucessfully retrived data of the employee From employees in a specific deparment below is the action i performed.
+<img width="898" height="648" alt="image" src="https://github.com/user-attachments/assets/b38b48b2-565a-420f-be9f-2283b3d218ed" />
+
+### Lesson 3: Data manipulation Language (DML)
+- So, I succesfully manipulated data in the SQL where I updated the employee named Tobi into department of sales. 
+<img width="898" height="720" alt="image" src="https://github.com/user-attachments/assets/27890f29-b152-40e9-93ba-b9277988d312" />
+
+### Lesson 4: Data Definition (DDL)
+- DDL is focused on the structure of the database rather than the data inside.
+- To modify an existing table without having to delete it, we must use the ALTER command combined with ADD for new coloumns.
+- I solved this exercise by Inputing ALTER TABLE employees ADD phone varchar(20);
+<img width="926" height="755" alt="image" src="https://github.com/user-attachments/assets/d684ca2e-7eda-4ac9-8e28-9896ad55cd9a" />
+
+
+### Lesson 5: Data Control Language (DCL)
+
+- It is used to implement access control logic in a database.
+- Below I have solved this lesson too by granting all privileges. I tried grant_rights TO unauthorized_user;  
+
+<img width="912" height="702" alt="image" src="https://github.com/user-attachments/assets/0be5909d-c30a-4ec9-809a-9cec7721af7c" />
+
+### Lesson 6: What is SQL injection?
+- It is the insertation or injection of the malicious code via the SQL query input from the client to the application.
+- By using a tautology (a statement that is always true, like 1=1), you can bypass filters or authentication to retrieve all records in a table instead of just one.
+- By using a a statement that is always true, like 1=1, you can bypass filters or authentication to retrieve all records in a table instead of just one.
+
+### Lesson 7: Consequences of SQL injection
+
+- Modification of sensitive data
+- execution of administrative operation on databases
+- shutdown auditing or the DBMS
+- adding users
+- recover any content of the given file in DBMS.
+- Issues command to the operating system.
+- SQL injections allows attackers to spoof identity, tamper with data, allows complete disclousre of the data and much more. 
+
+### Lesson 8: 
 
 # Sources 
 
