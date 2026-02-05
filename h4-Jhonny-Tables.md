@@ -1,5 +1,6 @@
+
 # h3 Jhonny Tables 
-## Summary of OWASP 10: 2021
+## x) Summary of OWASP 10: 2021
 - OWASP stands for Open Worldwide Application Security Project. It is an open community, it is free and open to anyone interested in improving application security.
 - The OWASP Top 10 is a standard awareness document for developers and web application security.  It represents the most critical security risks to web applications.
 - Globally recognized by developers as the first step towards more secure coding.
@@ -36,14 +37,124 @@
 - They son's name being associated with DROP TABLE Students; actually instructs the database to drop the entire table of students from database records.
 - There is also a good moral of the story kind of vibes given in the funny story where they are made aware of a critical security risks.
 
-## Installing WebGoat 
-- 
+## a) Installing WebGoat 
+- I tried installing first Java but $ sudo apt-get install openjdk-17-jre but unfortunately the package was not available anymore
+- I installed Java 23.0.2 because it had some issues with latest webgoat so, I installed latest WebGoat and java. version check via java --version
+<img width="822" height="550" alt="image" src="https://github.com/user-attachments/assets/eb88c934-fa21-4759-bccf-9e81800918c4" />
+
+- I downloaded the local copy given in the website as the github link seems to not work with the terminal.
+- I executed the command and we can observe WebGoat in action.
+
+<img width="827" height="517" alt="image" src="https://github.com/user-attachments/assets/a2e90a35-a209-4788-a3e8-1eb7d0aaa867" />
+
+
+<img width="943" height="558" alt="image" src="https://github.com/user-attachments/assets/1f97cea5-f71f-420c-96f8-41e0347ac3ea" />
+
+-Finally We can browse in a normal browser to do the webgoat 
+
+<img width="727" height="582" alt="image" src="https://github.com/user-attachments/assets/d7533ffd-780e-4bfd-981c-d1d9f329479b" />
+
+- I created a new username and password while opening the WebGoat in my localhost. 
+
+<img width="1251" height="808" alt="image" src="https://github.com/user-attachments/assets/7e41dc2f-4544-43e4-9684-f11dec8de56d" />
+
+## b) F12. Solve Webgoat 2023.4: General: Developer tools.
+
+- Developer tools lessons
+<img width="1261" height="802" alt="image" src="https://github.com/user-attachments/assets/dcd0a361-d668-4c0d-8447-1becb057a4e6"/>
+
+- Lesson1: opening up the developer tools 
+
+- Lesson 2: Knowing the Elements Tab and CSS source.
+
+- Lesson 3: The console Tab
+- Console.log("Hello WebGoat"!)
+
+- <img width="435" height="73" alt="image" src="https://github.com/user-attachments/assets/62065463-300e-4c8d-ab0f-ae034d11683b" />
+
+
+- Lesson 4: Try it! Using the console
+- First we use the the command webgoat.customjs.phoneHome()
+<img width="980" height="833" alt="image" src="https://github.com/user-attachments/assets/5a323811-fb1f-4817-8c31-7134a9a98439" />
+
+- Sucessfully generated teh phone home response number and moved on to the next level
+
+
+<img width="1167" height="797" alt="image" src="https://github.com/user-attachments/assets/d265ecda-324d-4f6b-8d53-44278dfe3fe3" />
+
+- Lesson 5: Learned in details about the sources tab & the network tab.
+- Lesson 6: Try it! Working with the Network tab
+
+I have sucessfully found out the request of Go button. 
+
+- <img width="1178" height="812" alt="image" src="https://github.com/user-attachments/assets/809a5a7e-7889-4f5e-bf20-25da6c40fd91" />
+
+## c) Updated every thing on my linux. 
+
+<img width="742" height="532" alt="image" src="https://github.com/user-attachments/assets/11ec5c93-dff1-4830-ab3f-07d90c1ce7ae" />
+
+
+<img width="987" height="702" alt="image" src="https://github.com/user-attachments/assets/0fcd3576-5b15-460b-a392-2329dc89d48e" />
+
+
+## d) Sequel. Solve SQLZoo:
+### 0 SELECT basics 
+
+- <img width="840" height="777" alt="image" src="https://github.com/user-attachments/assets/3eb53371-3067-454a-99f5-272f59df74b5" />
+
+
+- <img width="826" height="910" alt="image" src="https://github.com/user-attachments/assets/45273eaa-f755-4b6c-aece-f003d78eef88" />
+
+
+- <img width="818" height="902" alt="image" src="https://github.com/user-attachments/assets/f1ff2993-62a3-46db-a8ef-ec5dadb3ca1b" />
 
 
 
+### 2 SELECT from World: First two Subtasks 
 
 
+- <img width="901" height="575" alt="image" src="https://github.com/user-attachments/assets/fd8ada7b-9cdd-4f05-b6e7-908cf9ff2f3b" />
 
 
+- <img width="1028" height="780" alt="image" src="https://github.com/user-attachments/assets/7a1bf692-581e-4d57-a7b9-3d6693e8ecca" />
 
 
+- <img width="913" height="691" alt="image" src="https://github.com/user-attachments/assets/86a76648-d534-4998-a2b4-075fb5328ee5" />
+
+
+## Solving Portswigger Labs: 
+
+- So I followed the instructions and opened up lab, had to create an account for it. Finally I finished my findings and succesfully did solved the Lab.
+- I solved the lab by taking a peak at solution tab, it was unclear at first on what I was supposed to do there first, but, after I clicked the solution it got clearer and I applied to the Lab.
+- Below is the result of its solution.
+
+  <img width="1918" height="1025" alt="image" src="https://github.com/user-attachments/assets/0e9ba764-4673-445c-900f-bffce1a418be" />
+
+- So, in this lab exercise I found the vulnerability of the website.
+- Here in the URL parameter there is a possible SQL injection flaw.
+- Adding ' to the parameter triggered a SQL syntax error.
+- The payload uses OR 1 = 1, which always evaluates true.
+- -- comments out the remaining SQL query.
+- All data which were hidden are returned.
+
+# Sources 
+
+Karvinen, T. 2026.: Information Security. Available at: https://terokarvinen.com/information-security/
+
+OWASP Foundation n.d.: Open Web Application Security Project (OWASP). Available at: https://owasp.org/
+
+OWASP Foundation 2021: OWASP Top 10 – A01: Broken Access Control. Available at: https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+
+OWASP Foundation 2021: OWASP Top 10 – A05: Security Misconfiguration. Available at: https://owasp.org/Top10/A05_2021-Security_Misconfiguration/
+
+OWASP Foundation 2021: OWASP Top 10 – A06: Vulnerable and Outdated Components. Available at: https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/
+
+OWASP Foundation 2021: OWASP Top 10 – A03: Injection. Available at: https://owasp.org/Top10/A03_2021-Injection/
+
+Munroe, R. n.d.: Exploits of a Mom (xkcd 327). Available at: https://xkcd.com/327/
+
+Karvinen, T. 2023: WebGoat 2023 – Ethical Web Hacking. Available at: https://terokarvinen.com/2023/webgoat-2023-4-ethical-web-hacking/
+
+SQLZoo Community n.d.: SQL Tutorial. Available at: https://sqlzoo.net/wiki/SQL_Tutorial
+
+PortSwigger Ltd. n.d.: SQL Injection Lab – Retrieve Hidden Data. Available at: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
