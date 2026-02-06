@@ -1,4 +1,4 @@
-
+<img width="957" height="692" alt="image" src="https://github.com/user-attachments/assets/333518d2-3f46-41c7-8302-6664e0e63d1f" />
 # h3 Jhonny Tables 
 ## x) Summary of OWASP 10: 2021
 - OWASP stands for Open Worldwide Application Security Project. It is an open community, it is free and open to anyone interested in improving application security.
@@ -197,6 +197,30 @@ I have sucessfully found out the request of Go button.
 - In numeric SQL injection you can force the database to ignore the specific ID requirement by providing a dummy value followed by a statement that is always true.
 
 <img width="906" height="662" alt="image" src="https://github.com/user-attachments/assets/35893d37-90a7-4f71-9102-5a1e443aaf4f" />
+
+### Lesson 11: Compromising confidentiality with stirng SQL injection 
+- I solved this by doing this: Entering Smith' OR '1'='1'-- in the employee name field on the forum leaving the authentication TAN blank. 
+
+<img width="1151" height="787" alt="image" src="https://github.com/user-attachments/assets/42d6a6c3-0faa-4334-8213-ca3a8997dfe9" />
+
+### Lessson 12: Compromising Integrity with Query chaining
+
+- I did this task by inputing this into the input field of employee Name Smith'; UPDATE employees SET salary = '99999' WHERE last_name = 'Smith'-- .
+- I left the TAN field blank too.
+- SQL query chaining allows to change your own salary, first closing initial query's string and then writing a new DML statement targeting own record.
+- I changed the salary to 480000 and earning the most money.
+
+<img width="1148" height="792" alt="image" src="https://github.com/user-attachments/assets/912cd8ee-1195-496e-be07-516ab6b27ec0" />
+
+### Lesson 13: Compromising Availability 
+
+- To compromise the avilability in the SQL we have to use Drop statement to remove the data from the database.
+- It removed entire table of access_log, which compromised Availability.
+- Below is the work i have done i acheived it by executing '; DROP TABLE access_log;-- statements.
+
+<img width="938" height="616" alt="image" src="https://github.com/user-attachments/assets/eb7d664f-222f-487c-b7d4-9d9c8c0ef3da" />
+
+
 
 # Sources 
 
