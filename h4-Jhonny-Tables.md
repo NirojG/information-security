@@ -1,4 +1,4 @@
-<img width="957" height="692" alt="image" src="https://github.com/user-attachments/assets/333518d2-3f46-41c7-8302-6664e0e63d1f" />
+
 # h3 Jhonny Tables 
 ## x) Summary of OWASP 10: 2021
 - OWASP stands for Open Worldwide Application Security Project. It is an open community, it is free and open to anyone interested in improving application security.
