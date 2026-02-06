@@ -39,7 +39,7 @@
 
 ## a) Installing WebGoat 
 - I tried installing first Java but $ sudo apt-get install openjdk-17-jre but unfortunately the package was not available anymore
-- I installed Java 23.0.2 because it had some issues with latest webgoat so, I installed latest WebGoat and java. version check via java --version
+- I installed Java 23.0.2 because it had some issues with webgoat. version check via java --version
 <img width="822" height="550" alt="image" src="https://github.com/user-attachments/assets/eb88c934-fa21-4759-bccf-9e81800918c4" />
 
 - I downloaded the local copy given in the website as the github link seems to not work with the terminal.
