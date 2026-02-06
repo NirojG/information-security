@@ -1,4 +1,4 @@
-<img width="912" height="702" alt="image" src="https://github.com/user-attachments/assets/91bcd1bf-423e-44bd-bd0d-ac40d39b156e" />
+
 # h3 Jhonny Tables 
 ## x) Summary of OWASP 10: 2021
 - OWASP stands for Open Worldwide Application Security Project. It is an open community, it is free and open to anyone interested in improving application security.
@@ -140,7 +140,7 @@ I have sucessfully found out the request of Go button.
 ## m) Voluntary bonus: WebGoat: SQL Injection 
 
 ### Lesson-1 SQL Injection (Intro)
-- This particular lesson in WebGoat describes the concept of Structured Query Language (SQL) and how it can be manipulated to perform malicious activities.
+- This particular lesson in WebGoat describes the concept of Structured Query Language (SQL) and how it can be manipulated to perform malicious activities. SQL Injection is an attack which exploits vulneribilities in an application by inserting malicious SQL query into regular input. 
 
 ### Lesson - 2
 - SQL is a standardized programming language which is used for managing relational databasees.
@@ -168,8 +168,8 @@ I have sucessfully found out the request of Go button.
 
 ### Lesson 6: What is SQL injection?
 - It is the insertation or injection of the malicious code via the SQL query input from the client to the application.
-- By using a tautology (a statement that is always true, like 1=1), you can bypass filters or authentication to retrieve all records in a table instead of just one.
-- By using a a statement that is always true, like 1=1, you can bypass filters or authentication to retrieve all records in a table instead of just one.
+- By using a statement that is always true, like 1=1, you can bypass filters or authentication to retrieve all records in a table instead of just one.
+
 
 ### Lesson 7: Consequences of SQL injection
 
@@ -181,7 +181,22 @@ I have sucessfully found out the request of Go button.
 - Issues command to the operating system.
 - SQL injections allows attackers to spoof identity, tamper with data, allows complete disclousre of the data and much more. 
 
-### Lesson 8: 
+### Lesson 8: Severity of SQL injection
+- I learned the severity of SQL injections here.
+- They are more common in PHP, Classic ASP, Cold Fusion languages.
+- Not all databases support command chaining.
+- Not all databases are equal.
+
+### Lesson 9: Try It! String SQL injection
+
+- I did this lesson by using entering ' OR '1' = '1 so the final query becomes SELECT * FROM user_data WHERE first_name = 'John' AND last_name = '' OR '1' = '1'.
+- The database gets confused here by the extra quotes and unexpected token.
+<img width="1147" height="873" alt="image" src="https://github.com/user-attachments/assets/f0907c43-4f1f-47a5-a2f4-54f4f28d4bdc" />
+
+### Lesson 10: Numeric SQL injection 
+- In numeric SQL injection you can force the database to ignore the specific ID requirement by providing a dummy value followed by a statement that is always true.
+
+<img width="906" height="662" alt="image" src="https://github.com/user-attachments/assets/35893d37-90a7-4f71-9102-5a1e443aaf4f" />
 
 # Sources 
 
