@@ -137,7 +137,7 @@ I have sucessfully found out the request of Go button.
 - -- comments out the remaining SQL query.
 - All data which were hidden are returned.
 
-## m) Voluntary bonus: WebGoat: SQL Injection 
+# m) Voluntary bonus: WebGoat: SQL Injection 
 
 ### Lesson-1 SQL Injection (Intro)
 - This particular lesson in WebGoat describes the concept of Structured Query Language (SQL) and how it can be manipulated to perform malicious activities. SQL Injection is an attack which exploits vulneribilities in an application by inserting malicious SQL query into regular input. 
