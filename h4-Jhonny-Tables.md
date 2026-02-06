@@ -198,7 +198,7 @@ I have sucessfully found out the request of Go button.
 
 <img width="906" height="662" alt="image" src="https://github.com/user-attachments/assets/35893d37-90a7-4f71-9102-5a1e443aaf4f" />
 
-### Lesson 11: Compromising confidentiality with stirng SQL injection 
+### Lesson 11: Compromising confidentiality with string SQL injection 
 - I solved this by doing this: Entering Smith' OR '1'='1'-- in the employee name field on the forum leaving the authentication TAN blank. 
 
 <img width="1151" height="787" alt="image" src="https://github.com/user-attachments/assets/42d6a6c3-0faa-4334-8213-ca3a8997dfe9" />
