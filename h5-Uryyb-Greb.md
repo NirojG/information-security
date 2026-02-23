@@ -32,9 +32,10 @@
 
 <img width="824" height="381" alt="image" src="https://github.com/user-attachments/assets/b89a23b4-200f-4ab1-bece-aa2f378479dd" />
 
-- <img width="951" height="725" alt="image" src="https://github.com/user-attachments/assets/7f29c8e9-c6a2-4170-b57a-e68fca0e3b9e" />
+<img width="951" height="725" alt="image" src="https://github.com/user-attachments/assets/7f29c8e9-c6a2-4170-b57a-e68fca0e3b9e" />
 
--Here the key is added after ssh-copy-id
+
+- Here the key is added after ssh-copy-id
 <img width="963" height="794" alt="image" src="https://github.com/user-attachments/assets/59f1d3a4-a378-4c89-a9d2-be502dc34998" />
 
 - Now trying to log in the localhost without the password via automation, I didn't have to login i directly went inside the localhost without a password.
