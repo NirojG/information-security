@@ -18,7 +18,7 @@
 - A message authentication code (MAC) it is also known as data authentication code (DAC) which is a one-way hash function with the addition of a secret key.
 - Only someone with the key can verify the hash value of a MAC.
 
-## a) Installing hashcat
+## a) Installing hashcat - testing with the simple hash
 - Firstly I updated everything with sudo apt-get update
 - Secondly I installed hashcat
 <img width="961" height="923" alt="image" src="https://github.com/user-attachments/assets/ccedcc9a-7f7a-4358-bb77-cc7db39753bf" />
@@ -44,8 +44,24 @@
 
 <img width="829" height="535" alt="image" src="https://github.com/user-attachments/assets/72bbab2a-12a7-4b42-a24e-5138a338d3aa" />
 
+- cracking the simple hash.
 
-- Now Identifying the Hash type and starting to crack the task in hand.
+<img width="1288" height="784" alt="image" src="https://github.com/user-attachments/assets/5a74b1ec-2b2d-434e-b425-89b74ce53724" />
+
+<img width="819" height="542" alt="image" src="https://github.com/user-attachments/assets/c9f1d4be-eec8-4ce5-8f57-ba09d6c2cc36" />
+
+- The Hash password was summer.
+<img width="1264" height="69" alt="image" src="https://github.com/user-attachments/assets/fee55801-480c-476b-912b-c09419caf20e" />
+
+<img width="1095" height="64" alt="image" src="https://github.com/user-attachments/assets/12afb11d-7f1e-4b4b-8250-fb5b3c4fe752" />
+
+
+
+
+
+## b) Crack this hash 
+
+- Now Identifying the Hash type and starting to crack the task in hand the hash is  d595b2086532422bbe654bc07ea030df.
 
 <img width="826" height="537" alt="image" src="https://github.com/user-attachments/assets/b3824947-3ead-4591-ad2a-4996489f7fbe" />
 
@@ -55,11 +71,16 @@
 
 <img width="1279" height="807" alt="image" src="https://github.com/user-attachments/assets/921349eb-9098-43cc-beca-59356863d510" />
 
-- I now viewed the password that i cracket i used cat solved
+- I now viewed the password that i cracked i used cat solved
+- I successfully cracked the password and the password is disobey.
 
-<img width="1284" height="801" alt="image" src="https://github.com/user-attachments/assets/03d8986d-8004-49fb-abfc-d2d3047f4c94" />
+<img width="505" height="54" alt="image" src="https://github.com/user-attachments/assets/2764e6f8-6b92-4dfa-bdd7-d3d535fea81b" />
 
-- The password I cracked was disobey.
+# Sources 
+- Karvinen, T. 2026. Information Security. Available at: https://terokarvinen.com/information-security/
+- Schneier, B. 2015. Applied Cryptography: 2.3 One-Way Functions and 2.4 One-Way Hash Functions. Available at https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/10_chap02.html#chap02
+- Cracking passwords with hashcat: Available at: https://terokarvinen.com/2022/cracking-passwords-with-hashcat/
+
 
 
 
