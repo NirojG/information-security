@@ -3,6 +3,6 @@
 -  https://github.com/NirojG/information-security/blob/main/h1%20Should%20Tero%20wear%20a%20helmet%3F.md
 -  After this mishap of link, I have always double checked my assignments and did everything properly for best accessibility and better reporting on homeworks. 
 
-# Volunteering Tasks 
+# Voluntary Task 
 - I did voluntary task of h4 jhonny table m) Voluntary bonus: WebGoat: SQL Injection, below is the link of the task i did.
 - https://github.com/NirojG/information-security/blob/main/h4-Jhonny-Tables.md
