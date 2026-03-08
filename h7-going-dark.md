@@ -30,7 +30,7 @@
 
 ## a) Installation of Tor browser 
 - I installed the Tor browser
-- 
+
 <img width="1291" height="805" alt="image" src="https://github.com/user-attachments/assets/cb2001c8-cab2-41b4-9b49-409d227077e1" />
 
 - I toggeled the anonymous duckduckgo onionize and started surfing anonymously
